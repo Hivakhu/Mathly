@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathly - Fall in Love with Mathematics</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span class="mathly">Mathly</span><span class="pi">π</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Puzzles</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">Visualizers</a></li>
+                    <li><a href="#" class="btn-outline">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Fall in Love with Math <span class="highlight">One Puzzle at a Time</span></h1>
+                <p>Discover the joy of mathematics through interactive challenges and beautiful visualizations.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn-primary">Start Exploring</a>
+                    <a href="#" class="btn-secondary">Try a Puzzle</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="math-shapes">
+                    <div class="shape circle"></div>
+                    <div class="shape triangle"></div>
+                    <div class="shape square"></div>
+                    <div class="shape hexagon"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>What You'll Find on Mathly</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon"><i class="fas fa-puzzle-piece"></i></div>
+                    <h3>Puzzles</h3>
+                    <p>Engaging math puzzles that challenge your thinking in fun ways.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>Logic Games</h3>
+                    <p>Games that sharpen your mathematical reasoning skills.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fas fa-project-diagram"></i></div>
+                    <h3>Concept Visualizers</h3>
+                    <p>Beautiful interactive tools to understand complex concepts.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Quick Challenges</h3>
+                    <p>Short, daily math challenges to keep your skills sharp.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="daily-puzzle">
+        <div class="container">
+            <div class="puzzle-card">
+                <h2>Puzzle of the Day</h2>
+                <div class="puzzle-content">
+                    <p>If 3x + 5 = 20, what is the value of x?</p>
+                    <div class="puzzle-answer" id="puzzle-answer" style="display: none;">
+                        <p>Solution: Subtract 5 from both sides: 3x = 15. Then divide both sides by 3: x = 5.</p>
+                    </div>
+                    <button id="show-answer" class="btn-primary">Show Answer</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-mathly">
+        <div class="container">
+            <h2>Why Mathly?</h2>
+            <p class="tagline">Mathematics isn't about numbers, equations, or algorithms. It's about <span class="highlight">understanding</span> and <span class="highlight">creativity</span>.</p>
+            <p>We make learning math joyful, interactive, and approachable for everyone.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="mathly">Mathly</span><span class="pi">π</span>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="footer-newsletter">
+                    <p>Stay updated with new puzzles</p>
+                    <form id="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit" class="btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Mathly. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
